@@ -5,6 +5,7 @@ html {
 body {
   background-color: #F5F5F5;
   box-sizing: border-box;
+  font-family: 'Biryani', sans-serif;
 }
 
 
@@ -22,13 +23,14 @@ body {
   left: 50%;
   top: 0;
   bottom: 0;
+  padding-left: 75px;
 }
 
 nav {
   background-color: white;
   width: 75px;
   margin: 0px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -47,8 +49,19 @@ li {
   height: auto;
 }
 
+.icons2 {
+  width: 30px;
+  height: auto;
+  float: left;
+}
+
 .nav-icons {
   margin-top: 235px;
+}
+
+.nav-button {
+  background-color: white;
+  border-color: white;
 }
 
 .logo {
@@ -68,41 +81,162 @@ h2 {
   float: left;
   margin-left: 110px;
   margin-bottom: 0px;
+  margin-top: 0px;
   padding: 0px;
 }
 
+.recent {
+  margin-left: 15px;
+}
+
 .h2a {
-  margin-top: 170px;
+  margin-top: 85px;
+  position: relative;
 }
 
 .popup {
-  width: 84%;
+  width: 79%;
+  height: 75px;
   margin-left: 110px;
   margin-bottom: 13px;
   background-image: linear-gradient(to right, #8ED1DC , #E3F4F6);
+  padding-left: 22px;
+  padding-top: 8px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  background: transparent;
+  border: none;
+  right: 7px;
+  top: 7px;
+}
+
+.x {
+  height: 10px;
+  width: 10px;
 }
 
 .main-three {
   margin-left: 110px;
-  width: 100%;
+  width: 84%;
 }
 
 .a {
   display: inline;
-  width: 27%;
+  width: 30%;
+  height: 80px;
+  background-color: white;
+  border: none;
+  text-align: left;
+  padding-top: 3px;
+}
+
+.expenses {
+  margin-right: 3.2%;
+  margin-left: 3.2%;
+}
+
+.money {
+  font-size: 20px;
+  font-family: 'Biryani', sans-serif;
 }
 
 .b {
-  display: inline;
+  display: inline-block;
   float: right;
+  background-color: #1CA3BA;
+  border: 1px;
+  border-color: #1CA3BA;
+  color: white;
+  height: 30px;
+  width: 170px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: -37px;
+  left: 73%;
+  border-radius: 50px;
+  font-size: 14px;
+}
+
+.c {
+  display: inline-block;
+  float: right;
+  background-color: #1CA3BA;
+  border: 1px;
+  border-color: #1CA3BA;
+  color: white;
+  height: 30px;
+  width: 170px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-right: 10px;
 }
 
 .accounts {
   display: block;
-  width: 84%;
+  width: 82%;
+  height: 55px;
   margin-left: 110px;
+  background-color: white;
+  border: none;
+  margin-top: 10px;
 }
 
-.accounts-buttons {
-  margin-top: 45px;
+.accounts-buttons-box {
+  margin-top: 25px;
+}
+
+button.accounts td {
+  width: 190px;
+  padding-left: 5px;
+  font-size: 16px;
+}
+
+
+.transactions {
+  border-collapse: collapse;
+  text-align: left;
+  position: absolute;
+  top: 65px;
+  right: 15px;
+  left: 15px;
+  display: inline-block;
+}
+
+.transactions td {
+  border-bottom: 2px solid #CCCCCC;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 55px;
+  position: relative;
+  right: 15px;
+  left: 15px;
+}
+
+.transactions th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  right: 15px;
+  left: 15px;
+}
+
+.white-block {
+  background-color: white;
+  width: 580px;
+  height: 470px;
+  top: 96px;
+  right: 25px;
+  left: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  position: relative;
 }
