@@ -2,7 +2,6 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="styles.css">
-<script type="text/javascript" src="main.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
 }
 </head>
@@ -11,11 +10,11 @@
     <div class="column-l">
 
       <nav>
-        <img class="logo" src="assets/icons/elephant.svg">
+        <img class="logo" src="assets/icons/elephant.svg" alt="app logo">
         <div class="nav-icons">
-          <li><button class = "nav-button"><img class="icons" src="assets/icons/dashboard.svg"></button></li>
-          <li><button class = "nav-button"><img class="icons" src="assets/icons/transactions.svg"></button></li>
-          <li><button class = "nav-button"><img class="icons" src="assets/icons/profile.svg"></button></li>
+          <li class="with-border"><button class = "nav-button"><img class="icons" src="assets/icons/dashboard.svg" alt="dashboard icon"></button></li>
+          <li><button class = "nav-button"><img class="icons" src="assets/icons/transactions.svg" alt="transactions icon"></button></li>
+          <li><button class = "nav-button"><img class="icons" src="assets/icons/profile.svg" alt="profile icon"></button></li>
         </div>
       </nav>
 
@@ -25,6 +24,7 @@
         <h3> Welcome, Oscar! </h3>
         <button class = "close"><img class="x" src="assets/icons/close.svg"></button>
       </div>
+
       <div class="main-three">
         <button class="a">INCOME<div class="money">$2,119,12</div></button>
         <button class="a expenses">EXPENSES<div class="money">$420.54</div></button>
@@ -37,10 +37,10 @@
       </div>
 <br>
   <div class="accounts-buttons-box">
-      <button class="accounts"><table class="button-table"><td><img class="icons2" src="assets/icons/checking.svg"></td><td>Wells Fargo</td><td>Checking</td></table></button>
-      <button class="accounts"><table class="button-table"><td><img class="icons2" src="assets/icons/savings.svg"></td><td>Wells Fargo</td><td>Savings</td></table></button>
-      <button class="accounts"><table class="button-table"><td><img class="icons2" src="assets/icons/credit-card.svg"></td><td>Amazon Credit</td><td>Credit Card</td></table></button>
-      <button class="accounts"><table class="button-table"><td><img class="icons2" src="assets/icons/credit-card.svg"></td><td>Southwest Credit</td><td>Credit Card</td></table></button>
+      <button class="accounts"><span class="button-icon"><img class="icons2" src="assets/icons/checking.svg" alt="checking icon"></span><span class="company">Wells Fargo</span><span class="account-type">Checking</span></button>
+      <button class="accounts"><span class="button-icon"><img class="icons2" src="assets/icons/savings.svg" alt="savings icon"></<span><span class="company">Wells Fargo</span><span class="account-type">Savings</span></button>
+      <button class="accounts"><span class="button-icon"><img class="icons2" src="assets/icons/credit-card.svg" alt="credit icon"></<span><span class="company">Amazon Credit</span><span class="account-type">Credit Card</span></button>
+      <button class="accounts"><span class="button-icon"><img class="icons2" src="assets/icons/credit-card.svg" alt="credit icon"></<span><span class="company">Southwest Credit</span><span class="account-type">Credit Card</span></button>
   </div>
     </div>
 
@@ -115,3 +115,5 @@
       </div>
 
 </body>
+<script type="text/javascript" src="main.js"></script>
+</html>

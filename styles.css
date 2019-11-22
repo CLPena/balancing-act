@@ -38,21 +38,26 @@ nav {
 
 li {
   list-style-type: none;
-  padding-left: 22px;
+  padding-left: 15px;
   padding-right: 22px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
 
+.with-border {
+  border-left: solid 4px #1CA3BA;
+}
+
 .icons {
   width: 30px;
   height: auto;
-}
+  }
 
 .icons2 {
   width: 30px;
   height: auto;
   float: left;
+  margin-left: 12px;
 }
 
 .nav-icons {
@@ -69,11 +74,13 @@ li {
   height: auto;
   padding-left: 8px;
   padding-right: 7px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 h1 {
   margin-left: 110px;
+  padding-top: 2px;
+  font-size: 30px;
 }
 
 h2 {
@@ -90,13 +97,13 @@ h2 {
 }
 
 .h2a {
-  margin-top: 85px;
+  margin-top: 60px;
   position: relative;
 }
 
 .popup {
   width: 79%;
-  height: 75px;
+  height: 80px;
   margin-left: 110px;
   margin-bottom: 13px;
   background-image: linear-gradient(to right, #8ED1DC , #E3F4F6);
@@ -126,11 +133,12 @@ h2 {
 .a {
   display: inline;
   width: 30%;
-  height: 80px;
+  height: 100px;
   background-color: white;
   border: none;
   text-align: left;
   padding-top: 3px;
+  padding-left: 18px;
 }
 
 .expenses {
@@ -141,6 +149,7 @@ h2 {
 .money {
   font-size: 20px;
   font-family: 'Biryani', sans-serif;
+  padding-top: 8px;
 }
 
 .b {
@@ -191,12 +200,26 @@ h2 {
   margin-top: 25px;
 }
 
-button.accounts td {
-  width: 190px;
-  padding-left: 5px;
-  font-size: 16px;
+.button-icons {
+  width: 10%;
 }
 
+.company {
+  font-size: 18px;
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding-left: 80px;
+}
+
+.account-type {
+  font-size: 18px;
+  text-align: left;
+  width: 20%;
+  padding-right: 15px;
+  display: inline-block;
+  float: right;
+  }
 
 .transactions {
   border-collapse: collapse;
