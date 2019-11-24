@@ -1,3 +1,4 @@
+/* General */
 html {
   height: 100%;
 }
@@ -8,7 +9,23 @@ body {
   font-family: 'Biryani', sans-serif;
 }
 
+/* Headers */
+h1 {
+  margin-left: 110px;
+  padding-top: 2px;
+  font-size: 30px;
+}
 
+h2 {
+  display: inline;
+  float: left;
+  margin-left: 110px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+/* Columns */
 .column-l {
   position: absolute;
   right: 50%;
@@ -26,6 +43,7 @@ body {
   padding-left: 75px;
 }
 
+/* Nav Bar */
 nav {
   background-color: white;
   width: 75px;
@@ -34,6 +52,7 @@ nav {
   top: 0;
   left: 0;
   bottom: 0;
+  z-index: 2;
 }
 
 li {
@@ -44,24 +63,13 @@ li {
   padding-bottom: 5px;
 }
 
-.with-border {
-  border-left: solid 4px #1CA3BA;
+.nav-icons-box {
+  margin-top: 235px;
 }
 
 .icons {
   width: 30px;
   height: auto;
-  }
-
-.icons2 {
-  width: 30px;
-  height: auto;
-  float: left;
-  margin-left: 12px;
-}
-
-.nav-icons {
-  margin-top: 235px;
 }
 
 .nav-button {
@@ -77,49 +85,48 @@ li {
   margin-top: 10px;
 }
 
-h1 {
-  margin-left: 110px;
-  padding-top: 2px;
-  font-size: 30px;
-}
-
-h2 {
-  display: inline;
-  float: left;
-  margin-left: 110px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding: 0px;
+.with-border {
+  border-left: solid 4px #1CA3BA;
 }
 
 .recent {
   margin-left: 15px;
 }
 
-.h2a {
+.accounts-header {
   margin-top: 60px;
   position: relative;
 }
 
+.icons2 {
+  width: 30px;
+  height: auto;
+  float: left;
+  margin-left: 12px;
+}
+
+/* Popup */
 .popup {
   width: 79%;
   height: 80px;
   margin-left: 110px;
   margin-bottom: 13px;
-  background-image: linear-gradient(to right, #8ED1DC , #E3F4F6);
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   padding-left: 22px;
   padding-top: 8px;
   position: relative;
-  box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
+  border: 0px;
 }
 
 .close {
   position: absolute;
   background: transparent;
   border: none;
-  right: 7px;
-  top: 7px;
+  right: 12px;
+  top: 12px;
+  padding: 0;
 }
 
 .x {
@@ -127,6 +134,7 @@ h2 {
   width: 10px;
 }
 
+/* Cards */
 .main-three {
   margin-left: 110px;
   width: 84%;
@@ -141,7 +149,7 @@ h2 {
   text-align: left;
   padding-top: 3px;
   padding-left: 18px;
-  box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
 }
 
@@ -150,13 +158,14 @@ h2 {
   margin-left: 3.2%;
 }
 
-.money {
+.numbers {
   font-size: 20px;
   font-family: 'Biryani', sans-serif;
   padding-top: 8px;
 }
 
-.b {
+/* Accounts Section */
+.manage-accounts {
   display: inline-block;
   float: right;
   background-color: #1CA3BA;
@@ -172,23 +181,7 @@ h2 {
   left: 73%;
   border-radius: 50px;
   font-size: 14px;
-  box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.05);
-}
-
-.c {
-  display: inline-block;
-  float: right;
-  background-color: #1CA3BA;
-  border: 1px;
-  border-color: #1CA3BA;
-  color: white;
-  height: 30px;
-  width: 170px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 50px;
-  font-size: 14px;
-  margin-right: 10px;
+  box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.05);
 }
 
 .accounts {
@@ -199,7 +192,7 @@ h2 {
   background-color: white;
   border: none;
   margin-top: 10px;
-  box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
 }
 
@@ -226,7 +219,24 @@ h2 {
   padding-right: 15px;
   display: inline-block;
   float: right;
-  }
+}
+
+/* Transactions Section */
+.new-transactions {
+  display: inline-block;
+  float: right;
+  background-color: #1CA3BA;
+  border: 1px;
+  border-color: #1CA3BA;
+  color: white;
+  height: 30px;
+  width: 170px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-right: 10px;
+}
 
 .transactions {
   border-collapse: collapse;
@@ -269,6 +279,6 @@ h2 {
   padding-bottom: 20px;
   display: block;
   position: relative;
-  box-shadow: 0px 0px 14px -5px rgba(0,0,0,0.05);
+  box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
 }
