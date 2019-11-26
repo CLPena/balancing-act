@@ -12,7 +12,7 @@
     <div class="nav-icons-box">
       <li><button class="nav-button with-border"><img class="icons dashboard" src="assets/icons/dashboard.svg" alt="dashboard icon"></button></li>
       <li><button class="nav-button"><img class="icons wallet" src="assets/icons/transactions.svg" alt="transactions icon"></button></li>
-      <li><button class="nav-button"><img class="icons profile"src="assets/icons/profile.svg" alt="profile icon"></button></li>
+      <li><button class="nav-button"><img class="icons profile" src="assets/icons/profile.svg" alt="profile icon"></button></li>
     </div>
   </nav>
   <main class="home">
@@ -108,6 +108,150 @@
       </div>
     </div>
   </main>
+
+  <section class="transactions-page">
+    <div class="column-l">
+      <span id="transactions-page-header">
+      <h1>Transactions</h1>
+      <span class="transactions-buttons-span">
+        <button class="transactions-buttons-top">All</button>
+        <button class="transactions-buttons-top">Inflow</button>
+        <button class="transactions-buttons-top">Outflow</button>
+      </span>
+      </span>
+      <div id="transactions-table-box">
+        <div class="table-row" id="table-first-row">
+          <span class="table-date">Date</span>
+          <span class="table-account">Account</span>
+          <span class="table-payee">Payee</span>
+          <span class="table-inflow">Inflow</span>
+          <span class="table-outflow">Outflow</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-25-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Target</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$82.35</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-24-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Express</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$212.24</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-22-19</span>
+          <span class="table-account">Checking</span>
+          <span class="table-payee">Paycheck</span>
+          <span class="table-inflow">$1319.12</span>
+          <span class="table-outflow">-</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-21-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Trader Joe's</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$54.94</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-20-19</span>
+          <span class="table-account">Credtit Card</span>
+          <span class="table-payee">Shell</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$46.23</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-19-19</span>
+          <span class="table-account">Savings</span>
+          <span class="table-payee">Rent</span>
+          <span class="table-inflow">$800.00</span>
+          <span class="table-outflow">-</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-19-19</span>
+          <span class="table-account">Checking</span>
+          <span class="table-payee">Hapa Sushi</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$13.97</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-18-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">PigTrain</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$4.83</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-18-19</span>
+          <span class="table-account">Checking</span>
+          <span class="table-payee">RTD</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$6.00</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-24-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Express</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$212.24</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-24-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Express</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$212.24</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-24-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Express</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$212.24</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-24-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Express</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$212.24</span>
+        </div>
+        <div class="table-row">
+          <span class="table-date">10-24-19</span>
+          <span class="table-account">Credit Card</span>
+          <span class="table-payee">Express</span>
+          <span class="table-inflow">-</span>
+          <span class="table-outflow">$212.24</span>
+        </div>
+      </div>
+    </div>
+    <div class="column-r">
+      <div id="new-transaction-box">
+          <h2 id="new-transactions-header">New Transaction</h>
+          <p>Type of Transaction:</p>
+          <select name="type">
+              <option value="type">Expense</option>
+          </select>
+          <p>Category:</p>
+          <select name="category">
+              <option value="select-one">- Select One -</option>
+          </select>
+          <p>Account from:</p>
+          <select name="account-from">
+              <option value="select-one">- Select One -</option>
+          </select>
+          <p>Payee:</p>
+          <input name="payee" type="text"></input>
+          <p>Outflow:</p>
+          <input name="outflow" type="text"></input>
+          <p>Inflow:</p>
+          <input name="inflow" type="text"></input>
+          <button id="log-expense">Log Expense</button>
+      </div>
+    </div>
+  </section>
 </body>
 <script type="text/javascript" src="main.js"></script>
 

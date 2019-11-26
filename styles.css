@@ -9,6 +9,10 @@ body {
   font-family: 'Biryani', sans-serif;
 }
 
+button:active {
+  transform: translateY(4px);
+}
+
 /* Headers */
 h1 {
   margin-left: 110px;
@@ -75,6 +79,10 @@ li {
 .nav-button {
   background-color: white;
   border-color: white;
+}
+
+button.nav-button:active {
+    transform: translateY(0px);
 }
 
 .logo {
@@ -169,8 +177,7 @@ li {
   display: inline-block;
   float: right;
   background-color: #1CA3BA;
-  border: 1px;
-  border-color: #1CA3BA;
+  border: 1px solid #1CA3BA;
   color: white;
   height: 30px;
   width: 170px;
@@ -182,6 +189,12 @@ li {
   border-radius: 50px;
   font-size: 14px;
   box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.05);
+}
+
+.manage-accounts:hover {
+  background-color: white;
+  border: 2px solid #1CA3BA;
+  color: #1CA3BA;
 }
 
 .accounts {
@@ -210,6 +223,7 @@ li {
   width: 50%;
   text-align: left;
   padding-left: 80px;
+  padding-top: 6px;
 }
 
 .account-type {
@@ -217,6 +231,7 @@ li {
   text-align: left;
   width: 20%;
   padding-right: 15px;
+  padding-top: 6px;
   display: inline-block;
   float: right;
 }
@@ -236,6 +251,12 @@ li {
   border-radius: 50px;
   font-size: 14px;
   margin-right: 10px;
+}
+
+.new-transactions:hover {
+  background-color: white;
+  border: 2px solid #1CA3BA;
+  color: #1CA3BA;
 }
 
 .transactions {
@@ -282,3 +303,169 @@ li {
   box-shadow: 0px 0px 14px -5px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
 }
+
+/* Transactions Page */
+.transactions-page {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+}
+/* Header */
+#transactions-page-header {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 1px;
+  height: 95px;
+}
+
+.transactions-buttons-span {
+  display: inline-block;
+  position: absolute;
+  top: 34px;
+  right: 0;
+  margin-bottom: 0;
+}
+
+.transactions-buttons-top {
+  background-color: white;
+  border: solid 1px #1CA3BA;
+  color: #1CA3BA;
+  display: inline-block;
+  height: 30px;
+  width: 92px;
+  border-radius: 50px;
+  margin-bottom: 0;
+}
+
+.transactions-buttons-top:hover {
+  background-color: #1CA3BA;
+  color: white;
+}
+
+/* Transactions Table and Box */
+#transactions-table-box {
+  height: 82%;
+  width: 85%;
+  background-color: white;
+  margin-left: 110px;
+}
+
+.table-row {
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  text-align: left;
+  border-bottom: 2px solid #CCCCCC;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.table-date {
+  width: 15%;
+  display: inline-block;
+}
+
+.table-account {
+  width: 20%;
+  display: inline-block;
+  padding-left: 15px;
+}
+
+.table-payee {
+  width: 27%;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.table-inflow {
+  width: 17%;
+  display: inline-block;
+}
+
+.table-outflow {
+  width: 15%;
+  display: inline-block;
+}
+
+#table-first-row {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* New Transactions Form */
+#new-transaction-box {
+  height: 82%;
+  width: 83%;
+  background-color: white;
+  display: inline-block;
+  margin-top: 97px;
+  margin-left: 35px;
+}
+
+p {
+  font-size: 14px;
+  width: 80%;
+  margin-left: 10%;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+#new-transactions-header {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 4px;
+  font-size: 23px;
+}
+
+select {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 28px;
+  box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.1);
+  background-color: #F8F8F8;
+  border: 1px solid #F8F8F8;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 28px;
+  box-shadow: 0px 1px 7px 1px rgba(0,0,0,0.1);
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#log-expense {
+  background-color: #1CA3BA;
+  border: solid 1px #1CA3BA;
+  color: white;
+  display: inline-block;
+  height: 37px;
+  width: 180px;
+  border-radius: 50px;
+  margin-top: 20px;
+  margin-right: 246px;
+  font-size: 14px;
+}
+
+#log-expense:hover {
+    background-color: white;
+    border: 2px solid #1CA3BA;
+    color: #1CA3BA;
+  }

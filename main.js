@@ -3,6 +3,7 @@ var wallet = document.querySelector('.wallet');
 var dashboard = document.querySelector('.dashboard');
 var profile = document.querySelector('.profile');
 var home = document.querySelector('.home');
+var transactionsPage = document.querySelector('.transactions-page')
 
 popup.addEventListener('click', closePopup);
 wallet.addEventListener('click', moveBorderWallet);
@@ -21,6 +22,7 @@ function moveBorderWallet(event) {
     dashboard.parentNode.classList.remove('with-border');
     profile.parentNode.classList.remove('with-border');
     home.style.visibility = "hidden";
+    transactionsPage.style.visibility = "visible";
   }
 }
 
@@ -38,5 +40,6 @@ function moveBorderDashboard(event) {
     profile.parentNode.classList.remove('with-border');
     wallet.parentNode.classList.remove('with-border');
     home.style.visibility = "visible";
+    transactionsPage.style.visibility = "hidden";
   }
 }
